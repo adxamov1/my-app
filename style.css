@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+/* header__section */
+.header__section{
+    padding-top: 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__section h2{
+    text-transform: capitalize;
+    /* padding-left: ; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.main__section__top{
+    /* text-align: center; */
+    margin-top: 100px;
+}
+
+.main__section__top h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.main__section__top p{
+    font-size: 20px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.main__section__bottom{
+    margin-top: 50px;
+    display: flex;
+
+    align-items: center;
+    justify-content:center;
+}
+
+.main__section__bottom input{
+    margin-right: 30px;
+    width: 289px;
+    height: 31px;
+}
+
+.main__section__bottom a{
+    text-decoration: none;
+    background-color: #6CB6FA;
+    color: black;
+    padding: 8px 30px;
+}
+
+.main__section__boxs__top h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.main__section__box{
+    /* align-items: center; */
+    display: flex;
+    margin-top: 100px;
+}
+
+.box__box{
+    
+    /* border: 2px solid red; */
+    /* display: flex; */
+    margin: 20px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.box__box p{
+
+    /* border: 1px solid black; */
+    width: 202px;
+}
+
+.boxs__box{
+    display: flex;
+}
+
+.boxs__box{
+    align-items: center;
+    line-height: 30px;
+    background-color: gray;
+    height: 350px;
+    width: 895px;
+}
+
+.fotor__section__top h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+
+.fotor__section__box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotor__section__box a{
+    text-decoration: none;
+}
+
+.fotor__section__box img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+
+    margin-right: 30px
+}
